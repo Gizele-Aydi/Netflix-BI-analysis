@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\Data Warehousing and modeling\Exported SQL tables\fact_shows_and_ratings.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\ETL\Cleaned Datasets\cleaned_Shows_and_Ratings.csv">
           <value>
             <Attribute>
