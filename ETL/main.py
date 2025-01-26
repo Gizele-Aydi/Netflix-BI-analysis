@@ -1,5 +1,7 @@
 import pandas as pd
+
 from db_connection import engine
+
 
 df = pd.read_csv('C:\.Fichiers\.Révision\.Junior\BI & DBM\BI project\Datasets\Cleaned\cleaned_Netflix_SubscriptionFees.csv')
 df.to_sql('subscription_fees', con=engine, if_exists='replace', index=False)
